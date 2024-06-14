@@ -1,0 +1,26 @@
+{
+    "name": "location-history-app",
+    "version": "1.0.0",
+    "description": "AI-Based Location History Application",
+    "main": "backend/index.js",
+    "scripts": {
+      "start": "node backend/index.js",
+      "frontend": "react-scripts start",
+      "build": "react-scripts build",
+      "test": "react-scripts test",
+      "eject": "react-scripts eject"
+    },
+    "dependencies": {
+      "axios": "^0.21.1",
+      "cheerio": "^1.0.0-rc.10",
+      "cors": "^2.8.5",
+      "express": "^4.17.1",
+      "react": "^17.0.2",
+      "react-dom": "^17.0.2",
+      "react-scripts": "4.0.3"
+    },
+    "devDependencies": {},
+    "author": "",
+    "license": "ISC"
+  }
+  
