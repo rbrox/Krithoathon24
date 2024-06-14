@@ -1,32 +1,34 @@
 # AI-Based Location History Application
 
-## Project Overview
+## Project Overview-KR0203
 
-The AI-Based Location History Application is developed for a hackathon project, initially focusing on exploring the most visited tourist attractions. The application utilizes AI and machine learning technologies to provide insights into historical events, cultural significance, economic impact, and interactive mapping of selected locations. It enhances user understanding and engagement by leveraging APIs for data retrieval and integrating with external services like Wikipedia for comprehensive information.
+The AI-Based Location History Application initially focusing on exploring the most visited tourist attractions. The application utilizes AI and machine learning technologies to provide insights into historical events, cultural significance, economic impact, and interactive mapping of selected locations. It enhances user understanding and engagement by leveraging APIs for data retrieval and integrating with external services like Wikipedia for comprehensive information.
 
-## Functionalities (Minimum Viable Product - MVP)
+## Functionalities
 
 1. **Historical Events Timeline**:
 
    - Display a chronological timeline of key historical events related to the most visited tourist attractions.
 
-2. **Cultural Significance Index**:
-
-   - Provide an index or score indicating the cultural importance of each tourist attraction, including heritage sites, museums, and local traditions.
-
-3. **Economic Impact Analysis**:
-
-   - Present data on the economic growth and impact of each tourist attraction over time, including major industries, companies, and economic milestones.
-
-4. **Interactive Map with Historical Layers**:
-
-   - Allow users to view each tourist attraction at different points in time with overlays showing historical boundaries, landmarks, and significant sites.
-
-5. **Integration with Wikipedia API**:
+2. **Integration with Wikipedia API**:
 
    - Utilize the Wikipedia API to fetch detailed information about each tourist attraction, enhancing user knowledge and engagement.
 
-6. **Voice Interaction (Future Enhancement)**:
+3. **Interactive Map with Historical Layers--gmaps?**:
+
+   - Allow users to view each tourist attraction at different points in time with overlays showing historical boundaries, landmarks, and significant sites.
+
+**----------------------------------------------------------------**
+
+4. **Cultural Significance Index**:
+
+   - Provide an index or score indicating the cultural importance of each tourist attraction, including heritage sites, museums, and local traditions.
+
+5. **Economic Impact Analysis**:
+
+   - Present data on the economic growth and impact of each tourist attraction over time, including major industries, companies, and economic milestones.
+
+6. **Voice Interaction**:
 
    - Integrate GPT-4.0 or similar technology for voice-based interaction, enabling users to ask questions or request information about historical events and attractions.
 
@@ -103,4 +105,3 @@ project-root/
 - Ensure proper API keys and environment variables are configured for Google Maps API, Wikipedia API, GPT-4.0 API, and any other services used.
 - Modify and expand functionalities based on project requirements and user feedback during development.
 - Refer to the documentation and official guides for each API and service integration for detailed setup and customization.
-# Krithoathon24
