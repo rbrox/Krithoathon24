@@ -1,13 +1,66 @@
+/* styles.css */
+
+/* General settings */
 body {
+  font-family: "Garamond", serif;
+  background-color: #f4f1ea;
+  color: #4a4a4a;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  line-height: 1.6;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* Header styling */
+header {
+  background-color: #d7ccc8;
+  padding: 20px;
+  text-align: center;
+  border-bottom: 1px solid #b0a18a;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.5em;
+}
+
+/* Main content styling */
+main {
+  padding: 20px;
+}
+
+article h2 {
+  font-size: 2em;
+  margin-top: 0;
+}
+
+article p {
+  font-size: 1.2em;
+  margin-bottom: 20px;
+}
+
+/* Footer styling */
+footer {
+  background-color: #d7ccc8;
+  padding: 10px;
+  text-align: center;
+  border-top: 1px solid #b0a18a;
+}
+
+footer p {
+  margin: 0;
+  font-size: 1em;
+}
+
+/* Adding a subtle texture */
+body::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("https://www.transparenttextures.com/patterns/linen.png");
+  opacity: 0.1;
+  pointer-events: none;
+  z-index: -1;
 }
